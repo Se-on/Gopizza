@@ -226,6 +226,10 @@ main .slider .slide-indicator{
   font-weight: lighter;
   line-height: 120%;}
 
+.s1 h2 i{
+  font-family: fontawesome;
+  margin-right: 5px;}
+
 /* section 02 */
 
 .s2 h1{
@@ -375,6 +379,11 @@ main .slider .slide-indicator{
 .s4 .piece h1{
   font-size: 48px;
   margin-bottom: 10px;}
+
+.s4 .piece h1 i{
+  font-family: fontawesome;
+  margin-right: 5px;
+  font-size: 40px;}
 
 .s4 .piece h2{
   font-size: 48px;
