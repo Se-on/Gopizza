@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
   $(".menu").hover(function(){
-    $(this).find(".sub").stop().slideDown(1000,"easeOutBounce");
+    $(this).find(".sub").stop().slideDown(350);
   }, function(){
     $(this).find(".sub").stop().slideUp();
   });
   
   let slideWrapper = $('.slider'),
-  slides = slideWrapper.find('.slide-list li'),
+  slides = slideWrapper.find('.slide-list .slide'),
   currentIdx = 0,
   slideIndicator = slideWrapper.find('.slide-indicator a');
 
