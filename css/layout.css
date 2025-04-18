@@ -36,7 +36,6 @@ header{
   height: 80px;
   display: flex;
   justify-content: center;
-  flex-direction: center;
   align-items: center;}
 
 nav>.gnb{
