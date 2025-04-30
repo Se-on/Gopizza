@@ -1,9 +1,13 @@
 $(document).ready(function(){
 
-  $(".menu").hover(function(){
-    $(this).find(".sub").stop().slideDown(350);
+  $(".sub").hide(); //display:none과 동일함
+
+  $(".main").hover(function(){
+    $(this).find(".sub").stop().slideDown();
+    $(".bg-box").stop().slideDown();
   }, function(){
     $(this).find(".sub").stop().slideUp();
+    $(".bg-box").stop().slideUp();
   });
   
   let slideWrapper = $('.slider'),
